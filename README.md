@@ -55,9 +55,9 @@ The project will focus on the following areas:
 
 ## Repository Layout
 
-.
-├── code/ # Scripts, tools, and prototype implementations
-├── logs/ # Daily research logs and observations
-├── notes/ # Protocol dissection, diagrams, lit reviews
-├── install/ # Installation scripts, setup guides
-└── README.md # This file
+.  
+├── code/ # Scripts, tools, and prototype implementations  
+├── logs/ # Daily research logs and observations  
+├── notes/ # Protocol dissection, diagrams, lit reviews  
+├── install/ # Installation scripts, setup guides  
+└── README.md # This file  
