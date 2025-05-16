@@ -1,0 +1,22 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*.bak
+.vscode/
+.idea/
+
+# Logs or output
+logs/*.log
+
+# Node.js
+node_modules/
+
+# Go
+bin/
+*.exe
+*.out
+*.test
