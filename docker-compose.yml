@@ -1,0 +1,122 @@
+version: "3.8"
+
+services:
+  ipfs-node1:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node1
+    ports:
+      - "5001:5001" # API
+      - "8080:8080" # Gateway
+      - "4001:4001" # Swarm
+    volumes:
+      - ./ipfs-data/node1:/data/ipfs
+    restart: unless-stopped
+    user: root
+
+  ipfs-node2:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node2
+    ports:
+      - "5002:5001"
+      - "8081:8080"
+      - "4002:4001"
+    volumes:
+      - ./ipfs-data/node2:/data/ipfs
+    restart: unless-stopped
+    user: root
+
+  ipfs-node3:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node3
+    ports:
+      - "5003:5001"
+      - "8082:8080"
+      - "4003:4001"
+    volumes:
+      - ./ipfs-data/node3:/data/ipfs
+    restart: unless-stopped
+    user: root
+
+  ipfs-node4:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node4
+    ports:
+      - "5004:5001"
+      - "8083:8080"
+      - "4004:4001"
+    volumes:
+      - ./ipfs-data/node4:/data/ipfs
+    restart: unless-stopped
+    user: root
+
+  ipfs-node5:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node5
+    ports:
+      - "5005:5001"
+      - "8084:8080"
+      - "4005:4001"
+    volumes:
+      - ./ipfs-data/node5:/data/ipfs
+    restart: unless-stopped
+    user: root
+
+  ipfs-node6:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node6
+    ports:
+      - "5006:5001"
+      - "8085:8080"
+      - "4006:4001"
+    volumes:
+      - ./ipfs-data/node6:/data/ipfs
+    restart: unless-stopped
+    user: root
+
+  ipfs-node7:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node7
+    ports:
+      - "5007:5001"
+      - "8086:8080"
+      - "4007:4001"
+    volumes:
+      - ./ipfs-data/node7:/data/ipfs
+    restart: unless-stopped
+    user: root
+
+  ipfs-node8:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node8
+    ports:
+      - "5008:5001"
+      - "8087:8080"
+      - "4008:4001"
+    volumes:
+      - ./ipfs-data/node8:/data/ipfs
+    restart: unless-stopped
+    user: root
+
+  ipfs-node9:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node9
+    ports:
+      - "5009:5001"
+      - "8088:8080"
+      - "4009:4001"
+    volumes:
+      - ./ipfs-data/node9:/data/ipfs
+    restart: unless-stopped
+    user: root
+
+  ipfs-node10:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs-node10
+    ports:
+      - "5010:5001"
+      - "8089:8080"
+      - "4010:4001"
+    volumes:
+      - ./ipfs-data/node10:/data/ipfs
+    restart: unless-stopped
+    user: root
