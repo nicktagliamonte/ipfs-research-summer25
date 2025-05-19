@@ -83,3 +83,14 @@
 12:36:05.313220 table@remove removed @2
 12:37:25.637869 db@close closing
 12:37:25.637938 db@close done T·68.797µs
+=============== May 19, 2025 (UTC) ===============
+15:12:27.765757 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:12:27.821833 version@stat F·[0 1] S·10KiB[0B 10KiB] Sc·[0.00 0.00]
+15:12:27.821874 db@open opening
+15:12:27.821961 journal@recovery F·1
+15:12:27.822135 journal@recovery recovering @16
+15:12:28.302062 memdb@flush created L0@19 N·540 S·71KiB "/F5..UZI,v495":"/pr..FGK,v576"
+15:12:28.336438 version@stat F·[1 1] S·81KiB[71KiB 10KiB] Sc·[0.25 0.00]
+15:12:29.207305 db@janitor F·5 G·1
+15:12:29.207365 db@janitor removing table-15
+15:12:29.207515 db@open done T·1.385630568s

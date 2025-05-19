@@ -1,0 +1,323 @@
+IPFS File Transfer Test Results
+=================================
+
+>>> Adding file from ipfs-node1
+CID: 24
+Add time: 0.76s
+
+Testing retrieval from ipfs-node1 -> ipfs-node2
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node1 -> ipfs-node3
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node1 -> ipfs-node4
+Retrieved successfully in 0.03s
+
+Testing retrieval from ipfs-node1 -> ipfs-node5
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node1 -> ipfs-node6
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node1 -> ipfs-node7
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node1 -> ipfs-node8
+Retrieved successfully in 0.02s
+
+Testing retrieval from ipfs-node1 -> ipfs-node9
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node1 -> ipfs-node10
+Retrieved successfully in 0.01s
+
+------------------------
+>>> Adding file from ipfs-node2
+CID: 24
+Add time: 24s
+
+Testing retrieval from ipfs-node2 -> ipfs-node1
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node2 -> ipfs-node3
+Retrieved successfully in 0.02s
+
+Testing retrieval from ipfs-node2 -> ipfs-node4
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node2 -> ipfs-node5
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node2 -> ipfs-node6
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node2 -> ipfs-node7
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node2 -> ipfs-node8
+Retrieved successfully in 0.02s
+
+Testing retrieval from ipfs-node2 -> ipfs-node9
+Retrieved successfully in 0.02s
+
+Testing retrieval from ipfs-node2 -> ipfs-node10
+Retrieved successfully in 0.01s
+
+------------------------
+>>> Adding file from ipfs-node3
+CID: 24
+Add time: 24s
+
+Testing retrieval from ipfs-node3 -> ipfs-node1
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node3 -> ipfs-node2
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node3 -> ipfs-node4
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node3 -> ipfs-node5
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node3 -> ipfs-node6
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node3 -> ipfs-node7
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node3 -> ipfs-node8
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node3 -> ipfs-node9
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node3 -> ipfs-node10
+Retrieved successfully in 0.01s
+
+------------------------
+>>> Adding file from ipfs-node4
+CID: 24
+Add time: 24s
+
+Testing retrieval from ipfs-node4 -> ipfs-node1
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node4 -> ipfs-node2
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node4 -> ipfs-node3
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node4 -> ipfs-node5
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node4 -> ipfs-node6
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node4 -> ipfs-node7
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node4 -> ipfs-node8
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node4 -> ipfs-node9
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node4 -> ipfs-node10
+Retrieved successfully in 0.01s
+
+------------------------
+>>> Adding file from ipfs-node5
+CID: 24
+Add time: 0.82s
+
+Testing retrieval from ipfs-node5 -> ipfs-node1
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node5 -> ipfs-node2
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node5 -> ipfs-node3
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node5 -> ipfs-node4
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node5 -> ipfs-node6
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node5 -> ipfs-node7
+Retrieved successfully in 0.02s
+
+Testing retrieval from ipfs-node5 -> ipfs-node8
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node5 -> ipfs-node9
+Retrieved successfully in 0.02s
+
+Testing retrieval from ipfs-node5 -> ipfs-node10
+Retrieved successfully in 0.02s
+
+------------------------
+>>> Adding file from ipfs-node6
+CID: 24
+Add time: 1.96s
+
+Testing retrieval from ipfs-node6 -> ipfs-node1
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node6 -> ipfs-node2
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node6 -> ipfs-node3
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node6 -> ipfs-node4
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node6 -> ipfs-node5
+Retrieved successfully in 0.03s
+
+Testing retrieval from ipfs-node6 -> ipfs-node7
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node6 -> ipfs-node8
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node6 -> ipfs-node9
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node6 -> ipfs-node10
+Retrieved successfully in 0.04s
+
+------------------------
+>>> Adding file from ipfs-node7
+CID: 24
+Add time: 24s
+
+Testing retrieval from ipfs-node7 -> ipfs-node1
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node7 -> ipfs-node2
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node7 -> ipfs-node3
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node7 -> ipfs-node4
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node7 -> ipfs-node5
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node7 -> ipfs-node6
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node7 -> ipfs-node8
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node7 -> ipfs-node9
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node7 -> ipfs-node10
+Retrieved successfully in 0.01s
+
+------------------------
+>>> Adding file from ipfs-node8
+CID: 24
+Add time: 2.13s
+
+Testing retrieval from ipfs-node8 -> ipfs-node1
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node8 -> ipfs-node2
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node8 -> ipfs-node3
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node8 -> ipfs-node4
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node8 -> ipfs-node5
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node8 -> ipfs-node6
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node8 -> ipfs-node7
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node8 -> ipfs-node9
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node8 -> ipfs-node10
+Retrieved successfully in 0.01s
+
+------------------------
+>>> Adding file from ipfs-node9
+CID: 24
+Add time: 24s
+
+Testing retrieval from ipfs-node9 -> ipfs-node1
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node9 -> ipfs-node2
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node9 -> ipfs-node3
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node9 -> ipfs-node4
+Retrieved successfully in 0.02s
+
+Testing retrieval from ipfs-node9 -> ipfs-node5
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node9 -> ipfs-node6
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node9 -> ipfs-node7
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node9 -> ipfs-node8
+Retrieved successfully in 0.03s
+
+Testing retrieval from ipfs-node9 -> ipfs-node10
+Retrieved successfully in 0.04s
+
+------------------------
+>>> Adding file from ipfs-node10
+CID: 24
+Add time: 1.50s
+
+Testing retrieval from ipfs-node10 -> ipfs-node1
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node10 -> ipfs-node2
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node10 -> ipfs-node3
+Retrieved successfully in 0.02s
+
+Testing retrieval from ipfs-node10 -> ipfs-node4
+Retrieved successfully in 0.02s
+
+Testing retrieval from ipfs-node10 -> ipfs-node5
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node10 -> ipfs-node6
+Retrieved successfully in 0.03s
+
+Testing retrieval from ipfs-node10 -> ipfs-node7
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node10 -> ipfs-node8
+Retrieved successfully in 0.01s
+
+Testing retrieval from ipfs-node10 -> ipfs-node9
+Retrieved successfully in 0.01s
+
+------------------------

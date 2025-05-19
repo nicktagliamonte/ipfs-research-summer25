@@ -1,0 +1,109 @@
+=== Testing node: ipfs-node1 ===
+Pinging 12D3KooWFLpeNew7KyAcwp9ZyfHCj9P7t8RnB6gbKYGECrpw7pT2 from ipfs-node1
+PING 12D3KooWFLpeNew7KyAcwp9ZyfHCj9P7t8RnB6gbKYGECrpw7pT2.
+Pong received: time=105.74 ms
+Pong received: time=99.86 ms
+Pong received: time=93.25 ms
+Pong received: time=92.52 ms
+Pong received: time=110.27 ms
+Average latency: 100.33ms
+-----
+
+=== Testing node: ipfs-node2 ===
+Pinging 12D3KooWNv5HzuMbqysF6KEpeBEH3hVRoo1EURepUoWGHF69SMZK from ipfs-node2
+PING 12D3KooWNv5HzuMbqysF6KEpeBEH3hVRoo1EURepUoWGHF69SMZK.
+Pong received: time=0.34 ms
+Pong received: time=0.06 ms
+Pong received: time=0.18 ms
+Pong received: time=0.24 ms
+Pong received: time=0.14 ms
+Average latency: 0.19ms
+-----
+
+=== Testing node: ipfs-node3 ===
+Pinging 12D3KooWRZH4Zn9zzFdkpRbxdDF5RGqQbRNWzrwtz43gd7tDGKpy from ipfs-node3
+PING 12D3KooWRZH4Zn9zzFdkpRbxdDF5RGqQbRNWzrwtz43gd7tDGKpy.
+Pong received: time=0.24 ms
+Pong received: time=0.07 ms
+Pong received: time=0.16 ms
+Pong received: time=0.25 ms
+Pong received: time=0.24 ms
+Average latency: 0.19ms
+-----
+
+=== Testing node: ipfs-node4 ===
+Pinging 12D3KooWBN7nPqPrySjYRscmRJtfQsZ6wVLnJ38VJnshZSAszWN3 from ipfs-node4
+PING 12D3KooWBN7nPqPrySjYRscmRJtfQsZ6wVLnJ38VJnshZSAszWN3.
+Pong received: time=0.21 ms
+Pong received: time=0.11 ms
+Pong received: time=0.17 ms
+Pong received: time=0.16 ms
+Pong received: time=0.28 ms
+Average latency: 0.18ms
+-----
+
+=== Testing node: ipfs-node5 ===
+Pinging 12D3KooWHi3rnbDakBhkuRAXZcnhjRYG3mKuFHfwsgDwb4hHbeYU from ipfs-node5
+PING 12D3KooWHi3rnbDakBhkuRAXZcnhjRYG3mKuFHfwsgDwb4hHbeYU.
+Pong received: time=0.30 ms
+Pong received: time=0.10 ms
+Pong received: time=0.19 ms
+Pong received: time=0.17 ms
+Pong received: time=0.24 ms
+Average latency: 0.20ms
+-----
+
+=== Testing node: ipfs-node6 ===
+Pinging 12D3KooWNv5HzuMbqysF6KEpeBEH3hVRoo1EURepUoWGHF69SMZK from ipfs-node6
+PING 12D3KooWNv5HzuMbqysF6KEpeBEH3hVRoo1EURepUoWGHF69SMZK.
+Pong received: time=0.21 ms
+Pong received: time=0.11 ms
+Pong received: time=0.27 ms
+Pong received: time=0.16 ms
+Pong received: time=0.15 ms
+Average latency: 0.18ms
+-----
+
+=== Testing node: ipfs-node7 ===
+Pinging 12D3KooWBN7nPqPrySjYRscmRJtfQsZ6wVLnJ38VJnshZSAszWN3 from ipfs-node7
+PING 12D3KooWBN7nPqPrySjYRscmRJtfQsZ6wVLnJ38VJnshZSAszWN3.
+Pong received: time=0.35 ms
+Pong received: time=0.11 ms
+Pong received: time=0.22 ms
+Pong received: time=0.21 ms
+Pong received: time=0.25 ms
+Average latency: 0.23ms
+-----
+
+=== Testing node: ipfs-node8 ===
+Pinging 12D3KooWC39AytgY9NWCuUKqvteu3NvCMCov3UAQrcXdQNu9VXRU from ipfs-node8
+PING 12D3KooWC39AytgY9NWCuUKqvteu3NvCMCov3UAQrcXdQNu9VXRU.
+Pong received: time=0.32 ms
+Pong received: time=0.07 ms
+Pong received: time=0.58 ms
+Pong received: time=0.66 ms
+Pong received: time=0.74 ms
+Average latency: 0.47ms
+-----
+
+=== Testing node: ipfs-node9 ===
+Pinging 12D3KooWQ412VKCBbrheUJ9T34K32yf1tCFAEBekfHvquvbqc5Uk from ipfs-node9
+PING 12D3KooWQ412VKCBbrheUJ9T34K32yf1tCFAEBekfHvquvbqc5Uk.
+Pong received: time=297.92 ms
+Pong received: time=267.92 ms
+Pong received: time=283.10 ms
+Pong received: time=280.83 ms
+Pong received: time=283.51 ms
+Average latency: 282.66ms
+-----
+
+=== Testing node: ipfs-node10 ===
+Pinging QmYGLDDfQXYBDNGnHUnmZTAEonh7Jb1rYUHTSDButNRrfF from ipfs-node10
+PING QmYGLDDfQXYBDNGnHUnmZTAEonh7Jb1rYUHTSDButNRrfF.
+Pong received: time=126.42 ms
+Pong received: time=124.16 ms
+Pong received: time=115.92 ms
+Pong received: time=117.97 ms
+Pong received: time=323.91 ms
+Average latency: 161.68ms
+-----
