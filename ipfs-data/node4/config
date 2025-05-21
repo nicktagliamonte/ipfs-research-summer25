@@ -92,8 +92,8 @@
     "RootRedirect": ""
   },
   "Identity": {
-    "PeerID": "12D3KooWD9v5hTSbbg5CXuAYBznNQCgAQWZvoqFA4wPGvMS2Z5aZ",
-    "PrivKey": "CAESQJ9FXG6hkunU0MN9erFcfT67RQ1bPMyOOaJIvWqvkxXMMZUuJ7QWSD+hQOIN3vpNC3GmTk+RcMICdyNJyRz8/1o="
+    "PeerID": "12D3KooWBrzJs2JZPrqJqt2J9QDTL85qvmjzBMdvfZzMBvKyE38R",
+    "PrivKey": "CAESQH8+v/Igkhlxhvsugq7S1/Q3G/f4sPtQGFOkZCcyrDYyHmNmKdtxtVnVq+89K64iasGCjrgX+/DDPRi/Rpy3Av4="
   },
   "Import": {
     "BatchMaxNodes": null,

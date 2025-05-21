@@ -1,64 +1,333 @@
-=============== May 17, 2025 (UTC) ===============
-12:26:56.533942 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-12:26:56.976617 db@open opening
-12:26:56.978037 version@stat F·[] S·0B[] Sc·[]
-12:26:57.213817 db@janitor F·2 G·0
-12:26:57.213900 db@open done T·236.838175ms
-12:26:58.994312 db@close closing
-12:26:58.994515 db@close done T·195.722µs
-=============== May 17, 2025 (UTC) ===============
-12:26:59.040263 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-12:26:59.040584 version@stat F·[] S·0B[] Sc·[]
-12:26:59.040621 db@open opening
-12:26:59.040689 journal@recovery F·1
-12:26:59.041344 journal@recovery recovering @1
-12:26:59.318123 memdb@flush created L0@2 N·6 S·1KiB "/F5..6WQ,v6":"/pi..rty,v1"
-12:26:59.318620 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
-12:27:00.845792 db@janitor F·3 G·0
-12:27:00.845839 db@open done T·1.805202913s
-12:27:01.073876 db@close closing
-12:27:01.074174 db@close done T·252.166µs
-=============== May 17, 2025 (UTC) ===============
-12:27:01.118019 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-12:27:01.118193 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
-12:27:01.118225 db@open opening
-12:27:01.118279 journal@recovery F·1
-12:27:01.121829 journal@recovery recovering @3
-12:27:01.121972 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
-12:27:01.987258 db@janitor F·3 G·0
-12:27:01.987304 db@open done T·869.064741ms
-12:27:03.014944 db@close closing
-12:27:03.014991 db@close done T·46.183µs
-=============== May 17, 2025 (UTC) ===============
-12:27:03.040764 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-12:27:03.040857 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
-12:27:03.040876 db@open opening
-12:27:03.040909 journal@recovery F·1
-12:27:03.041135 journal@recovery recovering @5
-12:27:03.041600 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
-12:27:04.027355 db@janitor F·3 G·0
-12:27:04.027383 db@open done T·986.499923ms
-12:28:12.351602 db@close closing
-12:28:12.351691 db@close done T·89.067µs
-=============== May 17, 2025 (UTC) ===============
-12:36:02.799253 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-12:36:02.799320 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
-12:36:02.799327 db@open opening
-12:36:02.799339 journal@recovery F·1
-12:36:02.799536 journal@recovery recovering @7
-12:36:03.418451 memdb@flush created L0@9 N·8 S·7KiB "/F5..6WQ,v12":"/pr..7VU,v15"
-12:36:03.421157 version@stat F·[2] S·9KiB[9KiB] Sc·[0.50]
-12:36:04.953884 db@janitor F·4 G·0
-12:36:04.953896 db@open done T·2.154566598s
-12:37:25.275026 db@close closing
-12:37:25.275076 db@close done T·49.103µs
-=============== May 19, 2025 (UTC) ===============
-15:12:28.211640 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-15:12:28.315393 version@stat F·[2] S·9KiB[9KiB] Sc·[0.50]
-15:12:28.335928 db@open opening
-15:12:28.336305 journal@recovery F·1
-15:12:28.342255 journal@recovery recovering @10
-15:12:28.729349 memdb@flush created L0@12 N·8 S·6KiB "/F5..6WQ,v22":"/pr..7VU,v24"
-15:12:28.729771 version@stat F·[3] S·16KiB[16KiB] Sc·[0.75]
-15:12:29.409985 db@janitor F·5 G·0
-15:12:29.410033 db@open done T·1.074075858s
+=============== May 20, 2025 (UTC) ===============
+19:49:34.826340 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:49:35.027736 db@open opening
+19:49:35.031745 version@stat F·[] S·0B[] Sc·[]
+19:49:35.155330 db@janitor F·2 G·0
+19:49:35.155385 db@open done T·127.623003ms
+19:49:36.602772 db@close closing
+19:49:36.602998 db@close done T·223.781µs
+=============== May 20, 2025 (UTC) ===============
+19:49:36.661615 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:49:36.661929 version@stat F·[] S·0B[] Sc·[]
+19:49:36.661963 db@open opening
+19:49:36.662023 journal@recovery F·1
+19:49:36.662323 journal@recovery recovering @1
+19:49:36.742939 memdb@flush created L0@2 N·6 S·1KiB "/F5..F7Q,v6":"/pi..rty,v1"
+19:49:36.743388 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:49:37.163677 db@janitor F·3 G·0
+19:49:37.163771 db@open done T·501.792115ms
+19:49:37.285579 db@close closing
+19:49:37.285796 db@close done T·214.802µs
+=============== May 20, 2025 (UTC) ===============
+19:49:37.344171 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:49:37.344463 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:49:37.344494 db@open opening
+19:49:37.344567 journal@recovery F·1
+19:49:37.350444 journal@recovery recovering @3
+19:49:37.350954 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:49:37.904389 db@janitor F·3 G·0
+19:49:37.904440 db@open done T·559.93162ms
+19:49:37.964969 db@close closing
+19:49:37.965006 db@close done T·37.66µs
+=============== May 20, 2025 (UTC) ===============
+19:49:37.983062 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:49:37.983218 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:49:37.983244 db@open opening
+19:49:37.983288 journal@recovery F·1
+19:49:37.983764 journal@recovery recovering @5
+19:49:37.984768 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:49:39.105518 db@janitor F·3 G·0
+19:49:39.105551 db@open done T·1.122297067s
+23:49:05.939742 db@close closing
+23:49:05.939854 db@close done T·109.82µs
+=============== May 21, 2025 (UTC) ===============
+15:48:26.902163 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:26.976479 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+15:48:26.976582 db@open opening
+15:48:26.976707 journal@recovery F·1
+15:48:26.977024 journal@recovery recovering @7
+15:48:27.233967 memdb@flush created L0@9 N·37 S·86KiB "/F5..F7Q,v12":"/pr..BP4,v40"
+15:48:27.235139 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:28.600639 db@janitor F·5 G·1
+15:48:28.600665 db@janitor removing table-25
+15:48:28.627893 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:48:29.650416 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:29.650606 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:29.650624 db@open opening
+15:48:29.650666 journal@recovery F·1
+15:48:29.650760 journal@recovery recovering @10
+15:48:29.651145 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:31.160010 db@janitor F·5 G·1
+15:48:31.160037 db@janitor removing table-25
+15:48:31.160126 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:48:31.728609 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:31.728668 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:31.728673 db@open opening
+15:48:31.728685 journal@recovery F·1
+15:48:31.728795 journal@recovery recovering @12
+15:48:31.729061 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:33.137920 db@janitor F·5 G·1
+15:48:33.137926 db@janitor removing table-25
+15:48:33.137952 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:48:33.733252 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:33.733339 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:33.733346 db@open opening
+15:48:33.733360 journal@recovery F·1
+15:48:33.733543 journal@recovery recovering @14
+15:48:33.733827 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:34.094017 db@janitor F·5 G·1
+15:48:34.094024 db@janitor removing table-25
+15:48:34.094048 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:48:35.163174 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:35.163243 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:35.163248 db@open opening
+15:48:35.163262 journal@recovery F·1
+15:48:35.163374 journal@recovery recovering @16
+15:48:35.163686 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:36.224728 db@janitor F·5 G·1
+15:48:36.224734 db@janitor removing table-25
+15:48:36.224755 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:48:38.166981 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:38.167043 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:38.167048 db@open opening
+15:48:38.167061 journal@recovery F·1
+15:48:38.167164 journal@recovery recovering @18
+15:48:38.167442 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:38.433176 db@janitor F·5 G·1
+15:48:38.433187 db@janitor removing table-25
+15:48:38.433206 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:48:42.116716 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:42.116823 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:42.116832 db@open opening
+15:48:42.116855 journal@recovery F·1
+15:48:42.116996 journal@recovery recovering @20
+15:48:42.117437 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:42.390403 db@janitor F·5 G·1
+15:48:42.390456 db@janitor removing table-25
+15:48:42.390601 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:48:49.267934 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:49.268141 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:49.268160 db@open opening
+15:48:49.268214 journal@recovery F·1
+15:48:49.268412 journal@recovery recovering @22
+15:48:49.270226 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:48:49.456195 db@janitor F·5 G·1
+15:48:49.456247 db@janitor removing table-25
+15:48:49.456350 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:49:02.692525 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:49:02.692622 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:49:02.692630 db@open opening
+15:49:02.692646 journal@recovery F·1
+15:49:02.692764 journal@recovery recovering @24
+15:49:02.692888 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:49:02.884687 db@janitor F·5 G·1
+15:49:02.884716 db@janitor removing table-25
+15:49:02.884803 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:49:29.038171 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:49:29.038324 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:49:29.038343 db@open opening
+15:49:29.038390 journal@recovery F·1
+15:49:29.038568 journal@recovery recovering @26
+15:49:29.039760 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:49:29.627739 db@janitor F·5 G·1
+15:49:29.627766 db@janitor removing table-25
+15:49:29.627855 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:50:21.385052 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:50:21.385285 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:50:21.385310 db@open opening
+15:50:21.385372 journal@recovery F·1
+15:50:21.385659 journal@recovery recovering @28
+15:50:21.387922 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:50:21.913584 db@janitor F·5 G·1
+15:50:21.913680 db@janitor removing table-25
+15:50:21.913820 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:51:22.421388 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:51:22.421821 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:51:22.421858 db@open opening
+15:51:22.421942 journal@recovery F·1
+15:51:22.422110 journal@recovery recovering @30
+15:51:22.423019 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:51:22.937322 db@janitor F·5 G·1
+15:51:22.937331 db@janitor removing table-25
+15:51:22.937363 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:52:23.496293 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:52:23.496773 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:52:23.496841 db@open opening
+15:52:23.496968 journal@recovery F·1
+15:52:23.497759 journal@recovery recovering @32
+15:52:23.499522 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:52:24.021136 db@janitor F·5 G·1
+15:52:24.021161 db@janitor removing table-25
+15:52:24.021234 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:53:24.384350 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:53:24.384829 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:53:24.385245 db@open opening
+15:53:24.385474 journal@recovery F·1
+15:53:24.386643 journal@recovery recovering @34
+15:53:24.387123 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:53:25.995359 db@janitor F·5 G·1
+15:53:25.995442 db@janitor removing table-25
+15:53:25.995468 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:54:26.506071 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:54:26.506172 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:54:26.506183 db@open opening
+15:54:26.506209 journal@recovery F·1
+15:54:26.508435 journal@recovery recovering @36
+15:54:26.508640 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:54:27.028029 db@janitor F·5 G·1
+15:54:27.028058 db@janitor removing table-25
+15:54:27.028141 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:55:27.623683 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:55:27.623823 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:55:27.623837 db@open opening
+15:55:27.623872 journal@recovery F·1
+15:55:27.624104 journal@recovery recovering @38
+15:55:27.625272 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:55:28.170666 db@janitor F·5 G·1
+15:55:28.170707 db@janitor removing table-25
+15:55:28.170805 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:56:28.798789 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:56:28.798972 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:56:28.798994 db@open opening
+15:56:28.799039 journal@recovery F·1
+15:56:28.799222 journal@recovery recovering @40
+15:56:28.801695 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:56:29.345584 db@janitor F·5 G·1
+15:56:29.345672 db@janitor removing table-25
+15:56:29.345806 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:57:29.590257 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:57:29.590320 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:57:29.590326 db@open opening
+15:57:29.590339 journal@recovery F·1
+15:57:29.590461 journal@recovery recovering @42
+15:57:29.590780 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:57:29.794276 db@janitor F·5 G·1
+15:57:29.794293 db@janitor removing table-25
+15:57:29.794346 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:58:29.989838 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:58:29.989903 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:58:29.989909 db@open opening
+15:58:29.989925 journal@recovery F·1
+15:58:29.989959 journal@recovery recovering @44
+15:58:29.990108 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:58:30.178803 db@janitor F·5 G·1
+15:58:30.178816 db@janitor removing table-25
+15:58:30.178859 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+15:59:30.376303 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:59:30.376364 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:59:30.376370 db@open opening
+15:59:30.376398 journal@recovery F·1
+15:59:30.377280 journal@recovery recovering @46
+15:59:30.377359 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+15:59:30.891637 db@janitor F·5 G·1
+15:59:30.891649 db@janitor removing table-25
+15:59:30.891707 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+16:00:31.342087 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:00:31.342359 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:00:31.342392 db@open opening
+16:00:31.342470 journal@recovery F·1
+16:00:31.342938 journal@recovery recovering @48
+16:00:31.343756 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:00:31.879214 db@janitor F·5 G·1
+16:00:31.879245 db@janitor removing table-25
+16:00:31.879334 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+16:01:32.181651 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:01:32.181721 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:01:32.181726 db@open opening
+16:01:32.181742 journal@recovery F·1
+16:01:32.182742 journal@recovery recovering @50
+16:01:32.182821 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:01:32.712107 db@janitor F·5 G·1
+16:01:32.712154 db@janitor removing table-25
+16:01:32.712256 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+16:02:33.066229 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:02:33.066342 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:02:33.066357 db@open opening
+16:02:33.066387 journal@recovery F·1
+16:02:33.066653 journal@recovery recovering @52
+16:02:33.067284 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:02:33.588962 db@janitor F·5 G·1
+16:02:33.589005 db@janitor removing table-25
+16:02:33.589081 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+16:03:33.932839 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:33.932919 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:03:33.932926 db@open opening
+16:03:33.932944 journal@recovery F·1
+16:03:33.933110 journal@recovery recovering @54
+16:03:33.933595 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:03:35.454962 db@janitor F·5 G·1
+16:03:35.454971 db@janitor removing table-25
+16:03:35.454998 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+16:04:35.854026 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:04:35.854148 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:04:35.854161 db@open opening
+16:04:35.854193 journal@recovery F·1
+16:04:35.854396 journal@recovery recovering @56
+16:04:35.855178 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:04:36.387754 db@janitor F·5 G·1
+16:04:36.387776 db@janitor removing table-25
+16:04:36.387837 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+16:05:36.623578 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:05:36.623650 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:05:36.623657 db@open opening
+16:05:36.623673 journal@recovery F·1
+16:05:36.623843 journal@recovery recovering @58
+16:05:36.624326 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:05:37.142309 db@janitor F·5 G·1
+16:05:37.142316 db@janitor removing table-25
+16:05:37.142342 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+16:06:37.319940 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:06:37.320061 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:06:37.320075 db@open opening
+16:06:37.320104 journal@recovery F·1
+16:06:37.320242 journal@recovery recovering @60
+16:06:37.320425 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:06:37.842162 db@janitor F·5 G·1
+16:06:37.842169 db@janitor removing table-25
+16:06:37.842189 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+16:07:38.028256 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:07:38.028320 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:07:38.028326 db@open opening
+16:07:38.028339 journal@recovery F·1
+16:07:38.028619 journal@recovery recovering @62
+16:07:38.028921 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:07:38.543020 db@janitor F·5 G·1
+16:07:38.543028 db@janitor removing table-25
+16:07:38.543070 remove 000025.ldb: remove /data/ipfs/datastore/000025.ldb: permission denied
+=============== May 21, 2025 (UTC) ===============
+16:08:38.741450 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:08:38.741583 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:08:38.741600 db@open opening
+16:08:38.741633 journal@recovery F·1
+16:08:38.742624 journal@recovery recovering @64
+16:08:38.742715 version@stat F·[2] S·87KiB[87KiB] Sc·[0.50]
+16:08:39.266132 db@janitor F·5 G·1
+16:08:39.266149 db@janitor removing table-25
+16:08:39.266222 db@open done T·524.615452ms

@@ -94,3 +94,147 @@
 15:12:29.207305 db@janitor F·5 G·1
 15:12:29.207365 db@janitor removing table-15
 15:12:29.207515 db@open done T·1.385630568s
+=============== May 20, 2025 (UTC) ===============
+00:18:16.084080 db@close closing
+00:18:16.084169 db@close done T·87.946µs
+=============== May 20, 2025 (UTC) ===============
+19:31:44.356047 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:31:44.374525 version@stat F·[1 1] S·81KiB[71KiB 10KiB] Sc·[0.25 0.00]
+19:31:44.374603 db@open opening
+19:31:44.374767 journal@recovery F·1
+19:31:44.375528 journal@recovery recovering @20
+19:31:45.038165 memdb@flush created L0@22 N·1572 S·315KiB "/F5..UZI,v2220":"/pr..FGK,v1759"
+19:31:45.038581 version@stat F·[2 1] S·397KiB[386KiB 10KiB] Sc·[0.50 0.00]
+19:31:45.945372 db@janitor F·5 G·0
+19:31:45.945465 db@open done T·1.570775397s
+19:31:49.843546 db@close closing
+19:31:49.844294 db@close done T·1.119958ms
+=============== May 20, 2025 (UTC) ===============
+19:31:51.551238 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:31:51.551308 version@stat F·[2 1] S·397KiB[386KiB 10KiB] Sc·[0.50 0.00]
+19:31:51.551314 db@open opening
+19:31:51.551329 journal@recovery F·1
+19:31:51.551743 journal@recovery recovering @23
+19:31:52.146208 memdb@flush created L0@25 N·5 S·15KiB "/lo..ers,v2226":"/pr..FGK,v2228"
+19:31:52.163752 version@stat F·[3 1] S·412KiB[401KiB 10KiB] Sc·[0.75 0.00]
+19:31:53.468867 db@janitor F·6 G·0
+19:31:53.468887 db@open done T·1.917568096s
+19:31:55.486143 db@close closing
+19:31:55.486192 db@close done T·49.76µs
+=============== May 20, 2025 (UTC) ===============
+19:31:56.873275 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:31:56.873337 version@stat F·[3 1] S·412KiB[401KiB 10KiB] Sc·[0.75 0.00]
+19:31:56.873344 db@open opening
+19:31:56.873358 journal@recovery F·1
+19:31:56.873389 journal@recovery recovering @26
+19:31:57.442938 memdb@flush created L0@28 N·5 S·12KiB "/lo..ers,v2232":"/pr..FGK,v2234"
+19:31:57.463413 version@stat F·[4 1] S·425KiB[414KiB 10KiB] Sc·[1.00 0.00]
+19:31:58.379610 db@janitor F·7 G·0
+19:31:58.379625 db@open done T·1.506277376s
+19:31:58.379695 table@compaction L0·4 -> L1·1 S·425KiB Q·2235
+19:31:58.605059 table@build created L1@31 N·564 S·87KiB "/F5..UZI,v2220":"/pr..FGK,v1759"
+19:31:58.605106 version@stat F·[0 1] S·87KiB[0B 87KiB] Sc·[0.00 0.00]
+19:31:59.254510 table@compaction committed F-4 S-337KiB Ke·0 D·1576 T·874.794224ms
+19:31:59.254600 table@remove removed @25
+19:31:59.254656 table@remove removed @22
+19:31:59.254923 table@remove removed @19
+19:31:59.254934 table@remove removed @18
+19:32:00.309088 db@close closing
+19:32:00.309148 db@close done T·60.408µs
+=============== May 20, 2025 (UTC) ===============
+19:32:01.600923 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:32:01.601013 version@stat F·[0 1] S·87KiB[0B 87KiB] Sc·[0.00 0.00]
+19:32:01.601021 db@open opening
+19:32:01.601037 journal@recovery F·1
+19:32:01.601161 journal@recovery recovering @29
+19:32:02.749049 memdb@flush created L0@32 N·5 S·15KiB "/lo..ers,v2239":"/pr..FGK,v2240"
+19:32:02.749303 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:32:03.554179 db@janitor F·6 G·2
+19:32:03.554188 db@janitor removing manifest-24
+19:32:03.554213 remove MANIFEST-000024: remove /data/ipfs/datastore/MANIFEST-000024: permission denied
+=============== May 20, 2025 (UTC) ===============
+19:32:04.562686 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:32:04.562765 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:32:04.562772 db@open opening
+19:32:04.562788 journal@recovery F·1
+19:32:04.562908 journal@recovery recovering @33
+19:32:04.563175 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:32:05.752517 db@janitor F·6 G·2
+19:32:05.752524 db@janitor removing manifest-24
+19:32:05.752545 remove MANIFEST-000024: remove /data/ipfs/datastore/MANIFEST-000024: permission denied
+=============== May 20, 2025 (UTC) ===============
+19:32:07.550469 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:32:07.550536 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:32:07.550542 db@open opening
+19:32:07.550558 journal@recovery F·1
+19:32:07.550652 journal@recovery recovering @35
+19:32:07.551068 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:32:09.061563 db@janitor F·7 G·3
+19:32:09.061573 db@janitor removing table-22
+19:32:09.061600 remove 000022.ldb: remove /data/ipfs/datastore/000022.ldb: permission denied
+=============== May 20, 2025 (UTC) ===============
+19:32:12.463010 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:32:12.463076 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:32:12.463082 db@open opening
+19:32:12.463098 journal@recovery F·1
+19:32:12.463191 journal@recovery recovering @37
+19:32:12.463574 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:32:13.919696 db@janitor F·7 G·3
+19:32:13.919710 db@janitor removing table-22
+19:32:13.919729 remove 000022.ldb: remove /data/ipfs/datastore/000022.ldb: permission denied
+=============== May 20, 2025 (UTC) ===============
+19:42:34.828060 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:42:34.828176 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:42:34.828186 db@open opening
+19:42:34.828220 journal@recovery F·1
+19:42:34.828437 journal@recovery recovering @39
+19:42:34.829380 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:42:35.599497 db@janitor F·7 G·3
+19:42:35.599531 db@janitor removing table-22
+19:42:35.599561 db@janitor removing manifest-24
+19:42:35.599579 db@janitor removing table-28
+19:42:35.599641 db@open done T·771.449351ms
+19:44:30.827627 db@close closing
+19:44:30.827783 db@close done T·158.987µs
+=============== May 20, 2025 (UTC) ===============
+19:44:39.814409 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:44:39.814591 version@stat F·[1 1] S·102KiB[15KiB 87KiB] Sc·[0.25 0.00]
+19:44:39.814601 db@open opening
+19:44:39.814623 journal@recovery F·1
+19:44:39.815817 journal@recovery recovering @41
+19:44:40.121235 memdb@flush created L0@43 N·12 S·12KiB "/F5..UZI,v2247":"/pr..FGK,v2250"
+19:44:40.123565 version@stat F·[2 1] S·115KiB[28KiB 87KiB] Sc·[0.50 0.00]
+19:44:40.893522 db@janitor F·5 G·0
+19:44:40.893535 db@open done T·1.078929062s
+19:45:40.273712 db@close closing
+19:45:40.273765 db@close done T·51.571µs
+=============== May 20, 2025 (UTC) ===============
+19:45:46.637367 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:45:46.637445 version@stat F·[2 1] S·115KiB[28KiB 87KiB] Sc·[0.50 0.00]
+19:45:46.637453 db@open opening
+19:45:46.637467 journal@recovery F·1
+19:45:46.637731 journal@recovery recovering @44
+19:45:46.816823 memdb@flush created L0@46 N·6 S·10KiB "/lo..ers,v2257":"/pr..FGK,v2260"
+19:45:46.838122 version@stat F·[3 1] S·126KiB[38KiB 87KiB] Sc·[0.75 0.00]
+19:45:48.534659 db@janitor F·6 G·0
+19:45:48.534670 db@open done T·1.897213666s
+23:49:05.866672 db@close closing
+23:49:05.867106 db@close done T·430.993µs
+=============== May 21, 2025 (UTC) ===============
+15:48:30.489431 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:30.674341 version@stat F·[3 1] S·126KiB[38KiB 87KiB] Sc·[0.75 0.00]
+15:48:30.674366 db@open opening
+15:48:30.674414 journal@recovery F·1
+15:48:30.674557 journal@recovery recovering @47
+15:48:30.928586 memdb@flush created L0@49 N·40 S·107KiB "/F5..UZI,v2300":"/pr..FGK,v2292"
+15:48:30.942059 version@stat F·[4 1] S·233KiB[146KiB 87KiB] Sc·[1.00 0.00]
+15:48:32.390830 db@janitor F·7 G·0
+15:48:32.390848 db@open done T·1.716477114s
+15:48:32.390879 table@compaction L0·4 -> L1·1 S·233KiB Q·2302
+15:48:32.975019 table@build created L1@52 N·565 S·97KiB "/F5..UZI,v2300":"/pr..FGK,v1759"
+15:48:32.975056 version@stat F·[0 1] S·97KiB[0B 97KiB] Sc·[0.00 0.00]
+15:48:33.285003 table@compaction committed F-4 S-136KiB Ke·0 D·62 T·894.093148ms
+15:48:33.285089 table@remove removed @46
+15:48:33.285102 table@remove removed @43
+15:48:33.285109 table@remove removed @32
+15:48:33.285122 table@remove removed @31

@@ -9,7 +9,7 @@ services:
       - "8080:8080" # Gateway
       - "4001:4001" # Swarm
     volumes:
-      - ./ipfs-data/node1:/data/ipfs
+      - ./ipfs-data/node1:/data/ipfs:z
     restart: unless-stopped
     user: root
 
@@ -21,7 +21,7 @@ services:
       - "8081:8080"
       - "4002:4001"
     volumes:
-      - ./ipfs-data/node2:/data/ipfs
+      - ./ipfs-data/node2:/data/ipfs:z
     restart: unless-stopped
     user: root
 
@@ -33,7 +33,7 @@ services:
       - "8082:8080"
       - "4003:4001"
     volumes:
-      - ./ipfs-data/node3:/data/ipfs
+      - ./ipfs-data/node3:/data/ipfs:z
     restart: unless-stopped
     user: root
 
@@ -45,7 +45,7 @@ services:
       - "8083:8080"
       - "4004:4001"
     volumes:
-      - ./ipfs-data/node4:/data/ipfs
+      - ./ipfs-data/node4:/data/ipfs:z
     restart: unless-stopped
     user: root
 
@@ -57,7 +57,7 @@ services:
       - "8084:8080"
       - "4005:4001"
     volumes:
-      - ./ipfs-data/node5:/data/ipfs
+      - ./ipfs-data/node5:/data/ipfs:z
     restart: unless-stopped
     user: root
 
@@ -69,7 +69,7 @@ services:
       - "8085:8080"
       - "4006:4001"
     volumes:
-      - ./ipfs-data/node6:/data/ipfs
+      - ./ipfs-data/node6:/data/ipfs:z
     restart: unless-stopped
     user: root
 
@@ -81,7 +81,7 @@ services:
       - "8086:8080"
       - "4007:4001"
     volumes:
-      - ./ipfs-data/node7:/data/ipfs
+      - ./ipfs-data/node7:/data/ipfs:z
     restart: unless-stopped
     user: root
 
@@ -93,7 +93,7 @@ services:
       - "8087:8080"
       - "4008:4001"
     volumes:
-      - ./ipfs-data/node8:/data/ipfs
+      - ./ipfs-data/node8:/data/ipfs:z
     restart: unless-stopped
     user: root
 
@@ -105,7 +105,7 @@ services:
       - "8088:8080"
       - "4009:4001"
     volumes:
-      - ./ipfs-data/node9:/data/ipfs
+      - ./ipfs-data/node9:/data/ipfs:z
     restart: unless-stopped
     user: root
 
@@ -117,6 +117,6 @@ services:
       - "8089:8080"
       - "4010:4001"
     volumes:
-      - ./ipfs-data/node10:/data/ipfs
+      - ./ipfs-data/node10:/data/ipfs:z
     restart: unless-stopped
     user: root
