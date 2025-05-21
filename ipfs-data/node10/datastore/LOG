@@ -50,3 +50,47 @@
 15:48:30.786595 version@stat F·[2] S·78KiB[78KiB] Sc·[0.50]
 15:48:32.306440 db@janitor F·4 G·0
 15:48:32.306448 db@open done T·2.241122962s
+16:55:44.291640 db@close closing
+16:55:44.291934 db@close done T·314.263µs
+=============== May 21, 2025 (UTC) ===============
+16:55:53.583637 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:55:53.583910 version@stat F·[2] S·78KiB[78KiB] Sc·[0.50]
+16:55:53.583922 db@open opening
+16:55:53.583940 journal@recovery F·1
+16:55:53.584924 journal@recovery recovering @10
+16:55:53.730104 memdb@flush created L0@12 N·14 S·35KiB "/F5..ZWI,v51":"/pr..WNS,v56"
+16:55:53.815497 version@stat F·[3] S·113KiB[113KiB] Sc·[0.75]
+16:55:54.203921 db@janitor F·5 G·0
+16:55:54.203934 db@open done T·620.007487ms
+16:56:19.428409 db@close closing
+16:56:19.428545 db@close done T·133.468µs
+=============== May 21, 2025 (UTC) ===============
+16:56:25.188782 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:56:25.188858 version@stat F·[3] S·113KiB[113KiB] Sc·[0.75]
+16:56:25.188864 db@open opening
+16:56:25.188878 journal@recovery F·1
+16:56:25.189033 journal@recovery recovering @13
+16:56:25.250454 memdb@flush created L0@15 N·6 S·13KiB "/lo..ers,v64":"/pr..WNS,v66"
+16:56:25.273524 version@stat F·[4] S·126KiB[126KiB] Sc·[1.00]
+16:56:25.709845 db@janitor F·6 G·0
+16:56:25.709871 db@open done T·521.000974ms
+16:56:25.709964 table@compaction L0·4 -> L1·0 S·126KiB Q·67
+16:56:25.804899 table@build created L1@18 N·13 S·14KiB "/F5..ZWI,v51":"/pr..WNS,v56"
+16:56:25.804965 version@stat F·[0 1] S·14KiB[0B 14KiB] Sc·[0.00 0.00]
+16:56:27.110319 table@compaction committed F-3 S-112KiB Ke·0 D·50 T·1.400319699s
+16:56:27.110669 table@remove removed @12
+16:56:27.110701 table@remove removed @9
+16:56:27.110712 table@remove removed @2
+16:58:05.873608 db@close closing
+16:58:05.873685 db@close done T·76.553µs
+=============== May 21, 2025 (UTC) ===============
+16:58:14.426948 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:58:14.427407 version@stat F·[0 1] S·14KiB[0B 14KiB] Sc·[0.00 0.00]
+16:58:14.427458 db@open opening
+16:58:14.427595 journal@recovery F·1
+16:58:14.429152 journal@recovery recovering @16
+16:58:14.603153 memdb@flush created L0@19 N·8 S·12KiB "/F5..ZWI,v73":"/pr..WNS,v75"
+16:58:14.606047 version@stat F·[1 1] S·27KiB[12KiB 14KiB] Sc·[0.25 0.00]
+16:58:15.406532 db@janitor F·5 G·1
+16:58:15.406541 db@janitor removing table-15
+16:58:15.406567 db@open done T·979.097022ms

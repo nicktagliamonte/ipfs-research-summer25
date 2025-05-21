@@ -238,3 +238,28 @@
 15:48:33.285102 table@remove removed @43
 15:48:33.285109 table@remove removed @32
 15:48:33.285122 table@remove removed @31
+16:55:44.489130 db@close closing
+16:55:44.489312 db@close done T·179.806µs
+=============== May 21, 2025 (UTC) ===============
+16:57:21.754586 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:57:21.754677 version@stat F·[0 1] S·97KiB[0B 97KiB] Sc·[0.00 0.00]
+16:57:21.754687 db@open opening
+16:57:21.754701 journal@recovery F·1
+16:57:21.754880 journal@recovery recovering @50
+16:57:21.901771 memdb@flush created L0@53 N·123 S·39KiB "/F5..UZI,v2308":"/pr..FGK,d2364"
+16:57:21.905449 version@stat F·[1 1] S·136KiB[39KiB 97KiB] Sc·[0.25 0.00]
+16:57:22.198211 db@janitor F·5 G·1
+16:57:22.198228 db@janitor removing table-49
+16:57:22.198280 db@open done T·443.589387ms
+16:58:05.873605 db@close closing
+16:58:05.873703 db@close done T·93.755µs
+=============== May 21, 2025 (UTC) ===============
+16:58:14.207791 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:58:14.207903 version@stat F·[1 1] S·136KiB[39KiB 97KiB] Sc·[0.25 0.00]
+16:58:14.207910 db@open opening
+16:58:14.207924 journal@recovery F·1
+16:58:14.208035 journal@recovery recovering @54
+16:58:14.339555 memdb@flush created L0@56 N·6 S·17KiB "/lo..ers,v2429":"/pr..FGK,v2432"
+16:58:14.425288 version@stat F·[2 1] S·154KiB[57KiB 97KiB] Sc·[0.50 0.00]
+16:58:14.856454 db@janitor F·5 G·0
+16:58:14.856555 db@open done T·648.629852ms

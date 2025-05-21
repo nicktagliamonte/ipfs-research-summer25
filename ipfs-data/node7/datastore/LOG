@@ -139,3 +139,40 @@
 15:48:30.863927 table@remove removed @22
 15:48:30.864194 table@remove removed @19
 15:48:30.864239 table@remove removed @18
+16:55:44.450158 db@close closing
+16:55:44.450323 db@close done T·165.234µs
+=============== May 21, 2025 (UTC) ===============
+16:55:53.644128 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:55:53.644202 version@stat F·[0 1] S·28KiB[0B 28KiB] Sc·[0.00 0.00]
+16:55:53.644208 db@open opening
+16:55:53.644222 journal@recovery F·1
+16:55:53.645136 journal@recovery recovering @29
+16:55:53.877651 memdb@flush created L0@32 N·17 S·42KiB "/F5..NUI,v155":"/pr..E54,v157"
+16:55:53.880392 version@stat F·[1 1] S·70KiB[42KiB 28KiB] Sc·[0.25 0.00]
+16:55:54.351414 db@janitor F·5 G·1
+16:55:54.351435 db@janitor removing table-28
+16:55:54.351552 db@open done T·707.337084ms
+16:56:19.397349 db@close closing
+16:56:19.397658 db@close done T·305.765µs
+=============== May 21, 2025 (UTC) ===============
+16:56:25.210662 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:56:25.210738 version@stat F·[1 1] S·70KiB[42KiB 28KiB] Sc·[0.25 0.00]
+16:56:25.210745 db@open opening
+16:56:25.210761 journal@recovery F·1
+16:56:25.210962 journal@recovery recovering @33
+16:56:25.307565 memdb@flush created L0@35 N·6 S·16KiB "/lo..ers,v170":"/pr..LNC,v173"
+16:56:25.310225 version@stat F·[2 1] S·87KiB[59KiB 28KiB] Sc·[0.50 0.00]
+16:56:25.758454 db@janitor F·5 G·0
+16:56:25.758613 db@open done T·547.85359ms
+16:58:05.909250 db@close closing
+16:58:05.909393 db@close done T·144.204µs
+=============== May 21, 2025 (UTC) ===============
+16:58:14.239006 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:58:14.239084 version@stat F·[2 1] S·87KiB[59KiB 28KiB] Sc·[0.50 0.00]
+16:58:14.239091 db@open opening
+16:58:14.239107 journal@recovery F·1
+16:58:14.239256 journal@recovery recovering @36
+16:58:14.463355 memdb@flush created L0@38 N·8 S·17KiB "/F5..NUI,v180":"/pr..LNC,v182"
+16:58:14.467117 version@stat F·[3 1] S·105KiB[77KiB 28KiB] Sc·[0.75 0.00]
+16:58:14.977057 db@janitor F·6 G·0
+16:58:14.977069 db@open done T·737.974399ms

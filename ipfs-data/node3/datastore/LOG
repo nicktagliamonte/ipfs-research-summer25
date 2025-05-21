@@ -336,3 +336,35 @@
 15:48:28.455814 version@stat F·[2 1] S·127KiB[115KiB 11KiB] Sc·[0.50 0.00]
 15:48:29.883745 db@janitor F·5 G·0
 15:48:29.883862 db@open done T·1.893930571s
+16:55:44.488881 db@close closing
+16:55:44.489094 db@close done T·209.894µs
+=============== May 21, 2025 (UTC) ===============
+16:57:21.726473 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:57:21.726564 version@stat F·[2 1] S·127KiB[115KiB 11KiB] Sc·[0.50 0.00]
+16:57:21.726572 db@open opening
+16:57:21.726590 journal@recovery F·1
+16:57:21.727745 journal@recovery recovering @75
+16:57:21.866725 memdb@flush created L0@77 N·18 S·36KiB "/F5..DYY,v237":"/pr..A6G,d246"
+16:57:21.871297 version@stat F·[3 1] S·164KiB[152KiB 11KiB] Sc·[0.75 0.00]
+16:57:22.159677 db@janitor F·6 G·0
+16:57:22.159708 db@open done T·433.129374ms
+16:58:05.908190 db@close closing
+16:58:05.908370 db@close done T·178.096µs
+=============== May 21, 2025 (UTC) ===============
+16:58:14.239630 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:58:14.239710 version@stat F·[3 1] S·164KiB[152KiB 11KiB] Sc·[0.75 0.00]
+16:58:14.239718 db@open opening
+16:58:14.239733 journal@recovery F·1
+16:58:14.239812 journal@recovery recovering @78
+16:58:14.501537 memdb@flush created L0@80 N·6 S·16KiB "/lo..ers,v253":"/pr..A6G,v256"
+16:58:14.565661 version@stat F·[4 1] S·180KiB[168KiB 11KiB] Sc·[1.00 0.00]
+16:58:15.283049 db@janitor F·7 G·0
+16:58:15.283061 db@open done T·1.043339448s
+16:58:15.283092 table@compaction L0·4 -> L1·1 S·180KiB Q·257
+16:58:15.443179 table@build created L1@83 N·19 S·18KiB "/F5..DYY,v237":"/pr..A6G,v222"
+16:58:15.509654 version@stat F·[0 1] S·18KiB[0B 18KiB] Sc·[0.00 0.00]
+16:58:15.636963 table@compaction committed F-4 S-161KiB Ke·0 D·66 T·353.814628ms
+16:58:15.637436 table@remove removed @77
+16:58:15.637827 table@remove removed @74
+16:58:15.637966 table@remove removed @71
+16:58:15.638222 table@remove removed @70
