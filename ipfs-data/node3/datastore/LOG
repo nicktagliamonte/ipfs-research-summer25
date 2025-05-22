@@ -368,3 +368,16 @@
 16:58:15.637827 table@remove removed @74
 16:58:15.637966 table@remove removed @71
 16:58:15.638222 table@remove removed @70
+23:25:59.463890 db@close closing
+23:25:59.464094 db@close done T·198.155µs
+=============== May 22, 2025 (UTC) ===============
+14:54:00.657470 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:54:00.794328 version@stat F·[0 1] S·18KiB[0B 18KiB] Sc·[0.00 0.00]
+14:54:00.881138 db@open opening
+14:54:00.881340 journal@recovery F·1
+14:54:00.881568 journal@recovery recovering @81
+14:54:01.259208 memdb@flush created L0@84 N·16 S·114KiB "/F5..DYY,v270":"/pr..A6G,v264"
+14:54:01.259677 version@stat F·[1 1] S·132KiB[114KiB 18KiB] Sc·[0.25 0.00]
+14:54:02.427115 db@janitor F·5 G·1
+14:54:02.427119 db@janitor removing table-80
+14:54:02.427140 db@open done T·1.545979833s

@@ -379,3 +379,15 @@
 16:58:15.406561 db@janitor F·5 G·1
 16:58:15.406568 db@janitor removing manifest-74
 16:58:15.406602 db@open done T·1.089335395s
+23:25:59.499097 db@close closing
+23:25:59.499153 db@close done T·54.445µs
+=============== May 22, 2025 (UTC) ===============
+14:53:58.598961 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:53:58.961977 version@stat F·[1 1] S·35KiB[15KiB 20KiB] Sc·[0.25 0.00]
+14:53:58.962042 db@open opening
+14:53:58.962165 journal@recovery F·1
+14:53:58.966898 journal@recovery recovering @78
+14:54:00.611346 memdb@flush created L0@80 N·16 S·131KiB "/F5..4XI,v257":"/pr..XF2,v251"
+14:54:00.633350 version@stat F·[2 1] S·167KiB[147KiB 20KiB] Sc·[0.50 0.00]
+14:54:01.713561 db@janitor F·5 G·0
+14:54:01.713577 db@open done T·2.751526928s

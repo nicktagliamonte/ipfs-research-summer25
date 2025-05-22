@@ -263,3 +263,15 @@
 16:58:14.425288 version@stat F·[2 1] S·154KiB[57KiB 97KiB] Sc·[0.50 0.00]
 16:58:14.856454 db@janitor F·5 G·0
 16:58:14.856555 db@open done T·648.629852ms
+23:25:59.430750 db@close closing
+23:25:59.430994 db@close done T·242.895µs
+=============== May 22, 2025 (UTC) ===============
+14:53:57.970222 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:53:59.269973 version@stat F·[2 1] S·154KiB[57KiB 97KiB] Sc·[0.50 0.00]
+14:53:59.270042 db@open opening
+14:53:59.270189 journal@recovery F·1
+14:53:59.275021 journal@recovery recovering @57
+14:54:00.673847 memdb@flush created L0@59 N·1026 S·212KiB "/F5..UZI,v3456":"/pr..FGK,d2455"
+14:54:00.700990 version@stat F·[3 1] S·366KiB[269KiB 97KiB] Sc·[0.75 0.00]
+14:54:01.713558 db@janitor F·6 G·0
+14:54:01.713585 db@open done T·2.443535254s

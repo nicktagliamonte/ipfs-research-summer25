@@ -176,3 +176,23 @@
 16:58:14.467117 version@stat F·[3 1] S·105KiB[77KiB 28KiB] Sc·[0.75 0.00]
 16:58:14.977057 db@janitor F·6 G·0
 16:58:14.977069 db@open done T·737.974399ms
+23:25:59.463979 db@close closing
+23:25:59.464135 db@close done T·154.457µs
+=============== May 22, 2025 (UTC) ===============
+14:53:57.656016 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:53:59.035948 version@stat F·[3 1] S·105KiB[77KiB 28KiB] Sc·[0.75 0.00]
+14:53:59.036013 db@open opening
+14:53:59.036167 journal@recovery F·1
+14:53:59.036991 journal@recovery recovering @39
+14:53:59.231914 memdb@flush created L0@41 N·16 S·130KiB "/F5..NUI,v196":"/pr..LNC,v190"
+14:53:59.232258 version@stat F·[4 1] S·236KiB[208KiB 28KiB] Sc·[1.00 0.00]
+14:54:01.927541 db@janitor F·7 G·0
+14:54:01.927551 db@open done T·2.891530111s
+14:54:01.927587 table@compaction L0·4 -> L1·1 S·236KiB Q·200
+14:54:02.426895 table@build created L1@44 N·21 S·21KiB "/F5..NUI,v196":"/pr..LNC,v91"
+14:54:02.426927 version@stat F·[0 1] S·21KiB[0B 21KiB] Sc·[0.00 0.00]
+14:54:02.669300 table@compaction committed F-4 S-214KiB Ke·0 D·43 T·741.701732ms
+14:54:02.673843 table@remove removed @38
+14:54:02.673874 table@remove removed @35
+14:54:02.673919 table@remove removed @32
+14:54:02.673931 table@remove removed @31
