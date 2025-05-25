@@ -8,17 +8,20 @@ echo "IPFS File Transfer Test Results" > "$RESULTS_FILE"
 echo "=================================" >> "$RESULTS_FILE"
 echo "" >> "$RESULTS_FILE"
 
-# Create the test file on all nodes
+MP4_FILE=".resources/Video MP4_Road - testfile.org.mp4"
+REMOTE_PATH="/data/testfile.mp4"
+
+# Copy the mp4 file to all nodes
 for node in "${NODES[@]}"; do
-  docker exec "$node" sh -c 'echo "Hello from testfile.txt" > /data/testfile.txt'
+  docker cp "$MP4_FILE" "$node:$REMOTE_PATH"
 done
 
-# Loop through every pair of nodes: from -> to
+# Loop through every pair of nodes
 for src_node in "${NODES[@]}"; do
   echo ">>> Adding file from $src_node" | tee -a "$RESULTS_FILE"
 
   # Add file and capture CID and time
-  ADD_OUTPUT=$(docker exec "$src_node" sh -c 'time -p ipfs add /data/testfile.txt' 2>&1)
+  ADD_OUTPUT=$(docker exec "$src_node" sh -c "time -p ipfs add $REMOTE_PATH" 2>&1)
   CID=$(echo "$ADD_OUTPUT" | grep 'added' | awk '{print $2}')
   ADD_TIME=$(echo "$ADD_OUTPUT" | grep real | awk '{print $2}')
 
@@ -38,7 +41,7 @@ for src_node in "${NODES[@]}"; do
       if echo "$RETRIEVE_OUTPUT" | grep -q 'real'; then
         echo "Retrieved successfully in ${CAT_TIME}s" | tee -a "$RESULTS_FILE"
       else
-        echo "❌ Retrieval failed" | tee -a "$RESULTS_FILE"
+        echo "Retrieval failed" | tee -a "$RESULTS_FILE"
       fi
       echo "" >> "$RESULTS_FILE"
     fi
