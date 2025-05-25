@@ -3,7 +3,7 @@ IPFS File Transfer Test Results
 
 >>> Adding file from ipfs-node1
 CID: 256.00
-Add time: 87.03s
+Add time: 87.13s
 
 Testing retrieval from ipfs-node1 -> ipfs-node2
 Retrieved successfully in 0.01s
@@ -67,7 +67,7 @@ Retrieved successfully in 0.01s
 ------------------------
 >>> Adding file from ipfs-node3
 CID: 256.00
-Add time: 87.03s
+Add time: 82.08s
 
 Testing retrieval from ipfs-node3 -> ipfs-node1
 Retrieved successfully in 0.01s
@@ -99,7 +99,7 @@ Retrieved successfully in 0.01s
 ------------------------
 >>> Adding file from ipfs-node4
 CID: 256.00
-Add time: 44.79s
+Add time: 40.79s
 
 Testing retrieval from ipfs-node4 -> ipfs-node1
 Retrieved successfully in 0.03s
@@ -195,7 +195,7 @@ Retrieved successfully in 0.02s
 ------------------------
 >>> Adding file from ipfs-node7
 CID: 256.00
-Add time: 87.03s
+Add time: 87.43s
 
 Testing retrieval from ipfs-node7 -> ipfs-node1
 Retrieved successfully in 0.01s
@@ -227,7 +227,7 @@ Retrieved successfully in 0.01s
 ------------------------
 >>> Adding file from ipfs-node8
 CID: 256.00
-Add time: 87.03s
+Add time: 80.29s
 
 Testing retrieval from ipfs-node8 -> ipfs-node1
 Retrieved successfully in 0.02s
@@ -259,7 +259,7 @@ Retrieved successfully in 0.01s
 ------------------------
 >>> Adding file from ipfs-node9
 CID: 256.00
-Add time: 87.03s
+Add time: 86.03s
 
 Testing retrieval from ipfs-node9 -> ipfs-node1
 Retrieved successfully in 0.01s
