@@ -275,3 +275,17 @@
 14:54:00.700990 version@stat F·[3 1] S·366KiB[269KiB 97KiB] Sc·[0.75 0.00]
 14:54:01.713558 db@janitor F·6 G·0
 14:54:01.713585 db@open done T·2.443535254s
+=============== May 25, 2025 (UTC) ===============
+19:54:04.364933 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:54:04.365219 CURRENT: missing target file: MANIFEST-000061
+=============== May 25, 2025 (UTC) ===============
+19:54:04.365351 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:54:04.365385 table@recovery F·1
+19:54:04.365389 table@recovery recovering @52
+19:54:04.365548 table@recovery recovered @52 Gk·565 Ck·0 Cb·0 S·99332 Q·2301
+19:54:04.365554 table@recovery recovered F·1 N·565 Gk·565 Ck·0 Q·2301
+19:54:04.386879 version@stat F·[1] S·97KiB[97KiB] Sc·[0.25]
+19:54:04.392894 db@open opening
+19:54:04.393364 version@stat F·[1] S·97KiB[97KiB] Sc·[0.25]
+19:54:04.405020 db@janitor F·3 G·0
+19:54:04.405060 db@open done T·12.127584ms

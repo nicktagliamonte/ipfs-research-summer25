@@ -5,9 +5,9 @@ services:
     image: ipfs/go-ipfs:latest
     container_name: ipfs-node1
     ports:
-      - "5001:5001" # API
-      - "8080:8080" # Gateway
-      - "4001:4001" # Swarm
+      - "5011:5001" # API
+      - "8090:8080" # Gateway
+      - "4011:4001" # Swarm
     volumes:
       - ./ipfs-data/node1:/data/ipfs:z
     restart: unless-stopped

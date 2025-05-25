@@ -324,3 +324,31 @@
 14:53:59.629383 version@stat F·[3 1] S·323KiB[308KiB 14KiB] Sc·[0.75 0.00]
 14:54:01.308170 db@janitor F·6 G·0
 14:54:01.308187 db@open done T·3.700401085s
+=============== May 25, 2025 (UTC) ===============
+19:53:04.280997 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:53:04.281132 CURRENT: missing target file: MANIFEST-000071
+=============== May 25, 2025 (UTC) ===============
+19:53:04.287283 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:53:04.287359 table@recovery F·2
+19:53:04.287364 table@recovery recovering @62
+19:53:04.287923 table@recovery recovered @62 Gk·15 Ck·0 Cb·0 S·15330 Q·138
+19:53:04.287941 table@recovery recovering @63
+19:53:04.288027 table@recovery recovered @63 Gk·40 Ck·0 Cb·0 S·127075 Q·179
+19:53:04.288033 table@recovery recovered F·2 N·55 Gk·55 Ck·0 Q·179
+19:53:04.325528 version@stat F·[2] S·139KiB[139KiB] Sc·[0.50]
+19:53:04.329242 db@open opening
+19:53:04.329604 version@stat F·[2] S·139KiB[139KiB] Sc·[0.50]
+19:53:04.341072 db@janitor F·4 G·0
+19:53:04.341105 db@open done T·11.828139ms
+19:53:56.095645 db@close closing
+19:53:56.095742 db@close done T·98.369µs
+=============== May 25, 2025 (UTC) ===============
+19:54:03.978124 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:54:03.978442 version@stat F·[2] S·139KiB[139KiB] Sc·[0.50]
+19:54:03.978469 db@open opening
+19:54:03.978767 journal@recovery F·1
+19:54:03.980188 journal@recovery recovering @65
+19:54:03.991134 memdb@flush created L0@66 N·3 S·17KiB "/lo..ers,v181":"/pr..YSU,v182"
+19:54:03.991303 version@stat F·[3] S·156KiB[156KiB] Sc·[0.75]
+19:54:04.034563 db@janitor F·5 G·0
+19:54:04.034590 db@open done T·56.113563ms

@@ -416,3 +416,22 @@
 14:54:00.478425 version@stat F·[3 1] S·180KiB[157KiB 23KiB] Sc·[0.75 0.00]
 14:54:01.470630 db@janitor F·6 G·0
 14:54:01.470694 db@open done T·2.483891605s
+=============== May 25, 2025 (UTC) ===============
+19:53:04.065514 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:53:04.065781 CURRENT: missing target file: MANIFEST-000094
+19:53:04.104805 db@open opening
+19:53:04.105313 version@stat F·[] S·0B[] Sc·[]
+19:53:04.123689 db@janitor F·2 G·0
+19:53:04.123717 db@open done T·18.891542ms
+19:53:56.086206 db@close closing
+19:53:56.086269 db@close done T·61.108µs
+=============== May 25, 2025 (UTC) ===============
+19:54:03.956633 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:54:03.956786 version@stat F·[] S·0B[] Sc·[]
+19:54:03.956807 db@open opening
+19:54:03.956847 journal@recovery F·1
+19:54:03.962342 journal@recovery recovering @1
+19:54:03.969293 memdb@flush created L0@2 N·1 S·6KiB "/lo..ers,v1":"/lo..ers,v1"
+19:54:03.969502 version@stat F·[1] S·6KiB[6KiB] Sc·[0.25]
+19:54:04.012734 db@janitor F·3 G·0
+19:54:04.012760 db@open done T·55.94544ms
