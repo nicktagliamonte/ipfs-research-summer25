@@ -118,3 +118,134 @@ services:
       - ./ipfs-data/node10:/data/ipfs:z
     restart: unless-stopped
     user: root
+
+  cluster-node1:
+    container_name: cluster-node1
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node1:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9094:9094"
+      - "9095:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+
+  cluster-node2:
+    container_name: cluster-node2
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node2:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9096:9094"
+      - "9097:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+
+  cluster-node3:
+    container_name: cluster-node3
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node3:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9098:9094"
+      - "9099:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+
+  cluster-node4:
+    container_name: cluster-node4
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node4:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9100:9094"
+      - "9101:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+
+  cluster-node5:
+    container_name: cluster-node5
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node5:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9102:9094"
+      - "9103:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+
+  cluster-node6:
+    container_name: cluster-node6
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node6:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9104:9094"
+      - "9105:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+
+  cluster-node7:
+    container_name: cluster-node7
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node7:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9106:9094"
+      - "9107:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+
+  cluster-node8:
+    container_name: cluster-node8
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node8:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9108:9094"
+      - "9109:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+
+  cluster-node9:
+    container_name: cluster-node9
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node9:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9110:9094"
+      - "9111:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+
+  cluster-node10:
+    container_name: cluster-node10
+    image: ipfs/ipfs-cluster:latest
+    restart: unless-stopped
+    volumes:
+      - ./cluster-data/cluster-node10:/data/ipfs-cluster
+    environment:
+      - IPFS_CLUSTER_PATH=/data/ipfs-cluster
+    ports:
+      - "9112:9094"
+      - "9113:9095"
+    command: ["ipfs-cluster-service", "daemon"]
+

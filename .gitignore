@@ -24,3 +24,4 @@ bin/
 # custom/temporary/minor additions
 resources/
 ipfs-data/
+cluster-data/
