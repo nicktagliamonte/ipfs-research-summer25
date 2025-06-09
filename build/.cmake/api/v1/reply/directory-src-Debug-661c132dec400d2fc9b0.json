@@ -1,0 +1,229 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"install_binary_component"
+		],
+		"files" : 
+		[
+			"cmake/module/InstallBinaryComponent.cmake",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 212,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 342,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 398,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 411,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 423,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 13
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "bitcoin-wallet",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/bitcoin-wallet"
+			],
+			"targetId" : "bitcoin-wallet::@145eef247bfb46b6828c",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "bitcoin-wallet",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"doc/man/bitcoin-wallet.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "bitcoind",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/bitcoind"
+			],
+			"targetId" : "bitcoind::@145eef247bfb46b6828c",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "bitcoind",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"doc/man/bitcoind.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "bitcoin-cli",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/bitcoin-cli"
+			],
+			"targetId" : "bitcoin-cli::@145eef247bfb46b6828c",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "bitcoin-cli",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"doc/man/bitcoin-cli.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "bitcoin-tx",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/bitcoin-tx"
+			],
+			"targetId" : "bitcoin-tx::@145eef247bfb46b6828c",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "bitcoin-tx",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"doc/man/bitcoin-tx.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "bitcoin-util",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/bitcoin-util"
+			],
+			"targetId" : "bitcoin-util::@145eef247bfb46b6828c",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "bitcoin-util",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"doc/man/bitcoin-util.1"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

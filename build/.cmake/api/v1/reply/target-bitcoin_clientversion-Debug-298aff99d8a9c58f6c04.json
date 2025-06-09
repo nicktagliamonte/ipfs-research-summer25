@@ -1,0 +1,255 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libbitcoin_clientversion.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_dependencies",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O0 -ftrapv -g3 -std=c++20 -fPIC"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fdebug-prefix-map=/mnt/School/1_Temple/summer25/bitcoin/src=."
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fmacro-prefix-map=/mnt/School/1_Temple/summer25/bitcoin/src=."
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wgnu"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshadow-field"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wthread-safety"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wloop-analysis"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wredundant-decls"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunused-member-function"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdate-time"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wconditional-uninitialized"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wunreachable-code"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdocumentation"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wself-assign"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wstack-protector"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fstack-protector-all"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fcf-protection=full"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fstack-clash-protection"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ABORT_ON_FAILED_ASSUME"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "DEBUG_LOCKCONTENTION"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "DEBUG_LOCKORDER"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "RPC_DOC_CHECK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/mnt/School/1_Temple/summer25/build/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/mnt/School/1_Temple/summer25/bitcoin/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "generate_build_info::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "bitcoin_clientversion::@145eef247bfb46b6828c",
+	"name" : "bitcoin_clientversion",
+	"nameOnDisk" : "libbitcoin_clientversion.a",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/clientversion.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

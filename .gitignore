@@ -25,3 +25,5 @@ bin/
 resources/
 ipfs-data/
 cluster-data/
+bitcoin/
+bitcoinlib-dev/

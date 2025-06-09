@@ -1,0 +1,193 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{IPFS Independent Study}
+\lhead{Progress Log}
+\rfoot{\thepage}
+
+\titleformat{\section}{\large\bfseries}{}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+\definecolor{myred}{RGB}{200,0,0}
+\newcommand{\question}[1]{\textcolor{myred}{#1}}
+
+\title{\vspace{-2cm}Weekly Progress Log}
+\author{Nick Tagliamonte}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{5/25/25}
+
+\textbf{Task:} Install IPFS, simulate cluster, add large file, test retrieval, learn IPFS commands
+
+\subsection*{1) Install Kubo, Init Node}
+\textbf{Source:} \url{https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions}
+\begin{lstlisting}[language=bash]
+wget https://dist.ipfs.tech/kubo/v0.35.0/kubo_v0.35.0_linux-amd64.tar.gz
+tar -xvzf kubo_v0.35.0_linux-amd64.tar.gz
+cd kubo && sudo bash install.sh
+ipfs init
+ipfs daemon
+\end{lstlisting}
+
+\subsection*{2) Simulate 10-Node IPFS Swarm}
+Run: \texttt{docker-compose up -d}. Check: \texttt{docker ps}. Stop: \texttt{docker-compose down}.
+\begin{lstlisting}[language=yaml]
+# ipfs-node1 (others similar, increment ports/paths)
+services:
+  ipfs-node1:
+    image: ipfs/go-ipfs:latest
+    ports: ["5001:5001", "8080:8080", "4001:4001"]
+    volumes: [./ipfs-data/node1:/data/ipfs:z]
+    restart: unless-stopped
+    user: root
+# ...ipfs-node2 to ipfs-node10...
+\end{lstlisting}
+
+\subsection*{3) Bootstrap Nodes}
+\textbf{Source:} \url{https://docs.ipfs.tech/how-to/modify-bootstrap-list/}
+\begin{lstlisting}[language=bash]
+ipfs daemon
+ipfs id # get multiaddrs
+docker exec -it ipfs-nodeX /bin/sh
+ipfs bootstrap add /ip4/10.0.0.182/tcp/4100/p2p/<PeerID>
+\end{lstlisting}
+
+\subsection*{4) Basic IPFS Commands}
+\textbf{Source:} \url{https://docs.ipfs.tech/how-to/kubo-basic-cli/#install-kubo}
+\begin{lstlisting}[language=bash]
+echo "hello ipfs" > test.txt
+ipfs add test.txt
+ipfs cat <CID>
+ipfs pin rm <CID>
+docker exec ipfs-nodeX ipfs repo gc
+ipfs cat <CID>
+\end{lstlisting}
+
+\subsection*{5) Timing Add/Get for Large File}
+\textbf{File:} \texttt{.resources/Video MP4\_Road - testfile.org.mp4}
+\begin{lstlisting}[language=bash]
+NODES=(ipfs-node1 ... ipfs-node10)
+MP4_FILE=".resources/Video MP4_Road - testfile.org.mp4"
+for node in "${NODES[@]}"; do
+  docker cp "$MP4_FILE" "$node:/data/testfile.mp4"
+done
+for src in "${NODES[@]}"; do
+  ADD_OUTPUT=$(docker exec "$src" sh -c "time -p ipfs add /data/testfile.mp4" 2>&1)
+  CID=$(echo "$ADD_OUTPUT" | grep 'added' | awk '{print $2}')
+  for dst in "${NODES[@]}"; do
+    [ "$src" != "$dst" ] && docker exec "$dst" sh -c "time -p ipfs cat $CID > /dev/null"
+  done
+done
+\end{lstlisting}
+Adds: 40–90s. Gets: $\leq$ 0.01s.
+
+\section*{5/26/25}
+
+\subsection*{IPFS Replication}
+\begin{itemize}
+    \item \texttt{ipfs add} pins by default; \texttt{ipfs get} caches temporarily.
+    \item Only pinned files persist.
+    \item IPFS Cluster coordinates pinning/replication.
+\end{itemize}
+
+\subsection*{Install IPFS Cluster}
+\textbf{Source:} \url{https://ipfscluster.io/documentation/deployment/setup/}
+\begin{lstlisting}[language=bash]
+# Download from https://dist.ipfs.tech/#ipfs-cluster-service
+sudo mv ipfs-cluster-* /usr/local/bin/
+ipfs-cluster-service --version
+export IPFS_CLUSTER_PATH=...</cluster-nodeN>
+ipfs-cluster-service init
+# Edit service.json peers:
+"peers": ["/ip4/10.0.0.182/tcp/4100/p2p/<PeerID>"]
+\end{lstlisting}
+
+\subsection*{Filecoin Credits}
+\begin{itemize}
+    \item \textbf{DataCap:} Credit for verified data
+    \item \textbf{Verified Deals:} Boost miner rewards
+\end{itemize}
+
+\section*{5/28/25}
+
+\subsection*{Bitcoin Core Build/Node}
+\begin{lstlisting}[language=bash]
+git clone https://github.com/bitcoin/bitcoin.git
+git checkout v29.0
+sudo dnf install gcc-c++ cmake make python3
+cmake -B build && cmake --build build && cmake --install build
+bitcoind -daemon
+pkill bitcoind
+\end{lstlisting}
+
+\section*{5/29/25}
+
+\subsection*{Python BitcoinRPC Example}
+\begin{lstlisting}[language=Python]
+from bitcoinrpc.authproxy import AuthServiceProxy
+rpc_connection = AuthServiceProxy("http://user:pass@127.0.0.1:8332")
+print(rpc_connection.getblockchaininfo()['blocks'])
+\end{lstlisting}
+
+\subsection*{Transaction/Block Examples}
+\begin{lstlisting}[language=Python]
+txid = "..."
+block_hash = rpc_connection.getblockhash(277316)
+decoded_tx = rpc_connection.getrawtransaction(txid, True, block_hash)
+for output in decoded_tx['vout']:
+    print(f"{output['value']} BTC to {output['scriptPubKey'].get('addresses', ['Unknown'])[0]}")
+block = rpc_connection.getblock(block_hash)
+block_value = sum(
+    sum(output['value'] for output in rpc_connection.getrawtransaction(txid, True, block_hash)['vout'])
+    for txid in block['tx']
+)
+print(f"Total value of block {block_height}: {block_value} BTC")
+\end{lstlisting}
+
+\section*{5/30/25}
+
+\subsection*{Bitcoin Wallet/Key Experiments}
+\begin{lstlisting}[language=bash]
+bitcoin-cli createwallet "test_wallet"
+bitcoin-cli getnewaddress
+bitcoin-cli dumpprivkey <addr> # fails on descriptor wallet
+\end{lstlisting}
+\begin{lstlisting}[language=Python]
+# Extract public key/address from secret
+decoded = unhexlify("0381...")[0:32]
+secret = CBitcoinSecret.from_secret_bytes(decoded)
+public_key = secret.pub
+# ...address derivation...
+\end{lstlisting}
+
+\subsection*{Vanity Address Generation}
+\begin{lstlisting}[language=Python]
+import os, hashlib, base58, ecdsa
+# loop until address.lower().startswith("1kid")
+# generate key, public key, checksum, base58 encode
+\end{lstlisting}
+
+\section*{5/31/25}
+
+\textbf{Major questions:}
+\begin{itemize}
+    \item Connection between bitcoin and ipfs/filecoin for this project?
+    \item How does IPFS performance scale with node count?
+    \item Is IPFS effective in small networks? Can it run without filecoin?
+    \item Key architectural differences: IPFS vs bitcoin vs BitTorrent?
+    \item Is running a full bitcoin node required? (or can I prune?)
+\end{itemize}
+
+\end{document}
